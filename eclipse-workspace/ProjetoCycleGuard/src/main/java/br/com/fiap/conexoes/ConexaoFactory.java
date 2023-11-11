@@ -16,7 +16,7 @@ public class ConexaoFactory {
 		Class.forName("oracle.jdbc.driver.OracleDriver");
 		
 		return DriverManager.getConnection("jdbc:oracle:thin:@oracle.fiap.com.br:1521:orcl" ,
-                "RM552269" , "150504");
+                "RM552329" , "140405");
 		
 	}
 
